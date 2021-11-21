@@ -1,1 +1,1 @@
-# Yandex_C-_vacancies
+# Yandex_C++_vacancies
