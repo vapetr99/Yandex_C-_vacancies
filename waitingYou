@@ -1,0 +1,31 @@
+#include <iostream> 
+ 
+double commercial_development_experience;
+boolean your_language;
+ 
+void followTheLink()
+{
+	cout << "we will be glad to see you in any of these teams: https://yandex.ru/jobs/vacancies/разработчик-на-с-python-в-яндекс-маршрутизацию-5115
+  https://yandex.ru/jobs/vacancies/dev/traffic_jam_dev/
+  https://yandex.ru/jobs/vacancies/dev/dev_mapkit/
+  https://yandex.ru/jobs/vacancies/dev/navigation_dev/
+  https://yandex.ru/jobs/vacancies/разработчик-на-с-в-группу-разработки-систем-хранения-геоданных-7230
+  https://yandex.ru/jobs/vacancies/разработчик-бэкенда-системы-производства-геоданных-4628                                                                                                                                              
+  If you need more information, write to me in telegram: @dzewo ";
+}
+ 
+int main()
+{
+  your_language=С++;
+  cout << "Input your commercial development experience: ";
+  cin >> commercial_development_experience;
+
+
+  if(commercial_development_experience>=1.2 && your_language==true){
+	followTheLink(); 
+  }
+  else {
+  cout << "Wait you here: https://yandex.ru/yaintern/ ";
+  }
+	return 0;
+}
